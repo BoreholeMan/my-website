@@ -178,3 +178,7 @@
   .links { display: none; }
   .burger { display: flex; }
 }
+.logoImg {
+  height: 48px;
+  width: auto;
+}
