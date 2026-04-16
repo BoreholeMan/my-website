@@ -2,14 +2,9 @@ import PageHero from '../components/PageHero'
 import styles from './Gallery.module.css'
 
 const images = [
-  { src: '/gallery/image1.jpg', caption: 'Borehole drilling in progress' },
-  { src: '/gallery/image2.jpg', caption: 'Pump installation' },
-  { src: '/gallery/image3.jpg', caption: 'Completed borehole setup' },
-  { src: '/gallery/image4.jpg', caption: 'Water storage system' },
-  { src: '/gallery/image5.jpg', caption: 'Irrigation installation' },
-  { src: '/gallery/image6.jpg', caption: 'Site preparation' },
+  { src: '/Image1.png', caption: 'Borehole drilling in progress' },
+  { src: '/Image2.png', caption: 'Pump maintenance' },
 ]
-
 export default function Gallery() {
   return (
     <div>
