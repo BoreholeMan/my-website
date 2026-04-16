@@ -33,9 +33,9 @@ export default function Navbar() {
   return (
     <nav className={`${styles.nav} ${scrolled || !isHome ? styles.solid : ''} ${menuOpen ? styles.solid : ''}`}>
       <div className={styles.inner}>
-        <Link to="/" className={styles.logo}>
-          <img src="/logo.png" alt="Borehole Man" />
-        </Link>
+       <Link to="/" className={styles.logo}>
+  <span className={styles.logoText}>BOREHOLE MAN</span>
+</Link>
 
         <div className={styles.links}>
           <Link to="/" className={`${styles.link} ${location.pathname === '/' ? styles.active : ''}`}>Home</Link>
