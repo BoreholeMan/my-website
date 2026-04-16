@@ -57,6 +57,7 @@ export default function Navbar() {
             )}
           </div>
 
+          <Link to="/gallery" className={`${styles.link} ${location.pathname === '/gallery' ? styles.active : ''}`}>Gallery</Link>
           <Link to="/contact" className={`${styles.link} ${location.pathname === '/contact' ? styles.active : ''}`}>Contact</Link>
           <a href="tel:0822100454" className={styles.ctaBtn}>Call Us</a>
         </div>
