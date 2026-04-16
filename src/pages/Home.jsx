@@ -125,26 +125,27 @@ export default function Home() {
       <section className={styles.why}>
         <div className={styles.whyInner}>
           <div className={`${styles.whyText} reveal`}>
-            <span className={styles.sectionTag}>Why Borehole Man</span>
-            <h2 className={styles.sectionTitle}>Experience you can trust underground</h2>
-            <p>Our director Dusty began his drilling career in Antarctica, and has been working in Cape Town ever since. With 21+ years in the business, we know the Cape's geology — the sandy topsoil, the clay layers, the hard granite beneath — and how to drill through all of it efficiently.</p>
-            <p>We never cut corners. Every borehole is developed properly, every pump is correctly sized, and every installation uses quality materials. This matters when it's time for a service — done right, your pump always comes out safely.</p>
-            <Link to="/about" className={styles.ctaPrimary}>Read Our Story</Link>
-          </div>
+  <span className={styles.sectionTag}>Why Borehole Man</span>
+  <h2 className={styles.sectionTitle}>Cape Town's Borehole Specialists</h2>
+  <p>Water restrictions, droughts and rising municipal costs have made borehole water a smart, long-term investment for Cape Town homeowners. But a borehole is only as good as the people who drill and install it.</p>
+  <p>With over 21 years of experience in the Southern Suburbs, we've seen what happens when corners are cut — pumps that fail early, boreholes that run dry, systems cobbled together by multiple contractors. We do things differently.</p>
+  <p>Every borehole we drill is developed properly. Every pump is sized to the actual flow data. Every installation uses quality materials. And we're still here 21 years later to service what we install.</p>
+  <Link to="/about" className={styles.ctaPrimary}>Read Our Story</Link>
+</div>
           <div className={`${styles.whyStats} reveal`}>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>Step 4</div>
-              <div className={styles.whyStatLabel}>We never skip borehole development — it's critical for correct pump sizing</div>
-            </div>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>Italian</div>
-              <div className={styles.whyStatLabel}>We use exclusively Italian-manufactured pumps — trusted quality and longevity</div>
-            </div>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>Annual</div>
-              <div className={styles.whyStatLabel}>We recommend servicing every 12 months to protect your investment</div>
-            </div>
-          </div>
+  <div className={styles.whyStat}>
+    <div className={styles.whyStatNum}>300+</div>
+    <div className={styles.whyStatLabel}>Boreholes drilled across Cape Town's Southern Suburbs</div>
+  </div>
+  <div className={styles.whyStat}>
+    <div className={styles.whyStatNum}>21+</div>
+    <div className={styles.whyStatLabel}>Years serving the same local community</div>
+  </div>
+  <div className={styles.whyStat}>
+    <div className={styles.whyStatNum}>1</div>
+    <div className={styles.whyStatLabel}>Company for drilling, installation, maintenance and irrigation</div>
+  </div>
+</div>
         </div>
       </section>
 
