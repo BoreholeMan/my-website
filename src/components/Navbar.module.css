@@ -179,6 +179,7 @@
   .burger { display: flex; }
 }
 .logoImg {
-  height: 48px;
+  height: 56px;
   width: auto;
+  filter: brightness(0) invert(1);
 }
