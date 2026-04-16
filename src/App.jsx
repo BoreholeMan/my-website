@@ -11,6 +11,7 @@ import WaterStorage from './pages/WaterStorage'
 import WaterQuality from './pages/WaterQuality'
 import Irrigation from './pages/Irrigation'
 import Contact from './pages/Contact'
+import Gallery from './pages/Gallery'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
@@ -45,6 +46,7 @@ export default function App() {
         <Route path="/services/water-quality" element={<Layout><WaterQuality /></Layout>} />
         <Route path="/services/irrigation" element={<Layout><Irrigation /></Layout>} />
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
+        <Route path="/gallery" element={<Layout><Gallery /></Layout>} />
       </Routes>
     </BrowserRouter>
   )
