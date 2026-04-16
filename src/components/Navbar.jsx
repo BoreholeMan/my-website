@@ -77,6 +77,7 @@ export default function Navbar() {
           {services.map(s => (
             <Link key={s.path} to={s.path} className={styles.mobileSub}>{s.label}</Link>
           ))}
+          <Link to="/gallery" className={styles.mobileLink}>Gallery</Link>
           <Link to="/contact" className={styles.mobileLink}>Contact</Link>
           <a href="tel:0822100454" className={styles.mobileCta}>📞 0822100454</a>
         </div>
