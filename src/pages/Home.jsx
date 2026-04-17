@@ -210,7 +210,7 @@ export default function Home() {
         className={styles.whatsappFloat}
         aria-label="Chat on WhatsApp"
       >
-        💬
+        WA
       </a>
 
     </div>
