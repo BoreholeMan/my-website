@@ -39,6 +39,13 @@ export default function Contact() {
                 </div>
               </div>
               <div className={styles.contactItem}>
+                <span className={styles.contactIcon}>💬</span>
+                <div>
+                  <div className={styles.contactLabel}>WhatsApp</div>
+                  <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" className={styles.contactValue}>082 210 0454</a>
+                </div>
+              </div>
+              <div className={styles.contactItem}>
                 <span className={styles.contactIcon}>📍</span>
                 <div>
                   <div className={styles.contactLabel}>Area Served</div>
@@ -46,6 +53,8 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
+           
 
           <div className={styles.formWrap}>
             <h2>Send a Message</h2>
