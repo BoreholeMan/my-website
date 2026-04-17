@@ -42,7 +42,52 @@ export default function About() {
               <p>Contact us for expert advice and a no-obligation quote for your property.</p>
               <Link to="/contact" className={styles.btn}>Get in Touch</Link>
             </div>
+       </div>
+        </div>
+      </section>
+
+      <section className={styles.team}>
+        <div className={styles.teamInner}>
+          <div className={styles.teamHeader}>
+            <span className={styles.teamTag}>Meet the Team</span>
+            <h2 className={styles.teamTitle}>The People Behind the Work</h2>
+            <p className={styles.teamIntro}>We're a second-generation borehole drilling team working across Cape Town's Southern Suburbs since 2005.</p>
           </div>
+
+          <div className={styles.teamPhoto}>
+            <div className={styles.teamPhotoPlaceholder}>
+              <p>Team photo coming soon</p>
+            </div>
+          </div>
+
+          <div className={styles.teamGrid}>
+            <div className={styles.member}>
+              <div className={styles.memberInitial}>D</div>
+              <h3 className={styles.memberName}>Dusty</h3>
+              <span className={styles.memberRole}>Owner & Lead Drilling Specialist</span>
+              <p className={styles.memberBio}>Dusty grew up around drill rigs and has been working in the industry for over 10 years. He took over Borehole Man from his father, who started the business in 2005. Early on he worked on a three-month drilling contract in Antarctica installing safety net systems, before continuing his work locally across Cape Town.</p>
+            </div>
+            <div className={styles.member}>
+              <div className={styles.memberInitial}>S</div>
+              <h3 className={styles.memberName}>Shannon</h3>
+              <span className={styles.memberRole}>Admin & Customer Support</span>
+              <p className={styles.memberBio}>Shannon manages the admin and customer coordination side of the business. Working alongside Dusty, she helps keep projects organised and ensures every client is kept informed from first enquiry through to completion.</p>
+            </div>
+            <div className={styles.member}>
+              <div className={styles.memberInitial}>F</div>
+              <h3 className={styles.memberName}>Fani</h3>
+              <span className={styles.memberRole}>Senior Drilling Operator</span>
+              <p className={styles.memberBio}>Fani has been with Borehole Man for 11 years and is our most experienced operator, working across mud, air and rock drilling methods. He's known for staying positive on difficult sites and working through challenges until the job is done.</p>
+            </div>
+            <div className={styles.member}>
+              <div className={styles.memberInitial}>A</div>
+              <h3 className={styles.memberName}>Aaron</h3>
+              <span className={styles.memberRole}>Installations & Maintenance Lead</span>
+              <p className={styles.memberBio}>Aaron has been with Borehole Man for 7 years and leads installations and maintenance, specialising in fault-finding and making sure systems run reliably on site.</p>
+            </div>
+          </div>
+
+          <p className={styles.teamFooter}>Local experience. Practical advice. Reliable work since 2005.</p>
         </div>
       </section>
     </div>
