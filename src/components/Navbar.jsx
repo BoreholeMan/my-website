@@ -59,7 +59,7 @@ export default function Navbar() {
 
           <Link to="/gallery" className={`${styles.link} ${location.pathname === '/gallery' ? styles.active : ''}`}>Gallery</Link>
           <Link to="/contact" className={`${styles.link} ${location.pathname === '/contact' ? styles.active : ''}`}>Contact</Link>
-          <a href="tel:0822100454" className={styles.ctaBtn}>Call Us</a>
+          <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" className={styles.ctaBtn}>WhatsApp Us</a>
         </div>
 
         <button className={styles.burger} onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
