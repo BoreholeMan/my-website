@@ -2,6 +2,24 @@ import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import styles from './Home.module.css'
 
+const reviews = [
+  {
+    text: "We recently had a borehole installed by Dusty and his team. Such a great, friendly team who did a great job, despite having to drill in extremely hot weather conditions. We highly recommend them if anyone is thinking of a borehole. Don't hesitate, give Dusty a call.",
+    name: "Mark & Sandy",
+    location: "Westlake",
+  },
+  {
+    text: "I honestly cannot sing the praises of Dusty and his team more highly. Instead of just doing the bare minimum, he and his team came to assess our tipping water tank and flagged a couple of other serious issues. It is so amazing to know that it is a job well done. You guys are amazing!",
+    name: "Lindsay Campbell",
+    location: "Cape Town",
+  },
+  {
+    text: "Dusty and his team were amazing to work with! They were responsive, considerate and communicative. Would highly recommend.",
+    name: "Kirsty Nortje",
+    location: "Cape Town",
+  },
+]
+
 const services = [
   {
     icon: '⛏',
