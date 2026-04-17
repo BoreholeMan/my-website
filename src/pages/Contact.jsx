@@ -53,8 +53,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-           
+          </div>
 
           <div className={styles.formWrap}>
             <h2>Send a Message</h2>
