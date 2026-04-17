@@ -14,7 +14,7 @@ export default function Contact() {
         <div className={styles.inner}>
           <div className={styles.details}>
             <h2>Contact Details</h2>
-            <p className={styles.intro}>We work across the Southern Suburbs of Cape Town. Get in touch for a site assessment and no-obligation quote.</p>
+            <p className={styles.intro}>Get in touch for a site assessment and no-obligation quote.</p>
 
             <div className={styles.contactList}>
               <div className={styles.contactItem}>
@@ -42,17 +42,10 @@ export default function Contact() {
                 <span className={styles.contactIcon}>📍</span>
                 <div>
                   <div className={styles.contactLabel}>Area Served</div>
-                  <div className={styles.contactValue}>Southern Suburbs, Cape Town</div>
+                  <div className={styles.contactValue}>Cape Town</div>
                 </div>
               </div>
             </div>
-
-            <div className={styles.hours}>
-              <h3>Operating Hours</h3>
-              <p>Monday – Friday: 7:00am – 5:00pm</p>
-              <p>Saturday: By arrangement</p>
-            </div>
-          </div>
 
           <div className={styles.formWrap}>
             <h2>Send a Message</h2>
