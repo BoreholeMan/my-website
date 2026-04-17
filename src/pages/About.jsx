@@ -14,11 +14,11 @@ export default function About() {
         <div className={styles.inner}>
           <div className={styles.story}>
             <h2>Our Story</h2>
-            <p>Our business was founded in April 2005 by Dale Herbert during a period of severe drought and strict water restrictions in Cape Town. From the very beginning, the company focused on helping homeowners secure reliable alternative water sources through professional borehole drilling.</p>
-            <p>In early 2014, Dusty joined the business and has since taken ownership, continuing to build on the strong reputation established over the years for dependable service and quality workmanship.</p>
-            <p>We specialise primarily in drilling domestic boreholes across the Southern Suburbs of Cape Town, where we have successfully completed numerous projects for homeowners seeking sustainable water solutions. In addition to our local work, we have also undertaken drilling contracts internationally, including projects in Mozambique and Saudi Arabia.</p>
-            <p>Dusty began his drilling career in Antarctica, where he completed a three-month contract drilling holes for safety net installations. Since then, he has continued working extensively in Cape Town, bringing years of hands-on drilling experience and technical knowledge to every project we take on.</p>
-            <p>Today, we remain committed to providing reliable, professional borehole drilling services tailored to the needs of our local community.</p>
+            <p>Our business was started in April 2005 by Dale Herbert during a time when Cape Town was facing severe drought and water restrictions. From the beginning, the focus was simple — helping homeowners secure a reliable alternative water source through borehole drilling.</p>
+            <p>Dusty joined the business in 2014 and later took over from his father, continuing to build on the reputation for reliable work and straightforward service that the company had already established.</p>
+            <p>Most of our work is in the Southern Suburbs of Cape Town, where we've completed many domestic and commercial projects over the years. The team has also worked on drilling contracts outside South Africa, including projects in Mozambique and Saudi Arabia.</p>
+            <p>Early in his career, Dusty spent three months working on a drilling contract in Antarctica installing safety net systems. Since then, he has continued working locally across Cape Town, bringing practical experience to every project we take on.</p>
+            <p>Today, we remain focused on doing solid, dependable work and helping homeowners secure a reliable water supply for the long term.</p>
           </div>
           <div className={styles.sidebar}>
             <div className={styles.card}>
