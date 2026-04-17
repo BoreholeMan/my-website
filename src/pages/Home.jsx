@@ -4,59 +4,29 @@ import styles from './Home.module.css'
 
 const reviews = [
   {
-    text: "We recently had a borehole installed by Dusty and his team. Such a great, friendly team who did a great job, despite having to drill in extremely hot weather conditions. We highly recommend them if anyone is thinking of a borehole. Don't hesitate, give Dusty a call.",
+    text: "We recently had a borehole installed by Dusty and his team. Such a great friendly team who did a great job despite having to drill in extremely hot weather conditions. We highly recommend them if anyone is thinking of a borehole.",
     name: "Mark and Sandy",
     location: "Westlake",
   },
   {
-    text: "I honestly cannot sing the praises of Dusty and his team more highly. Instead of just doing the bare minimum, he and his team came to assess our tipping water tank and flagged a couple of other serious issues. It is so amazing to know that it is a job well done. You guys are amazing!",
+    text: "I cannot sing the praises of Dusty and his team more highly. Instead of just doing the bare minimum he flagged a couple of other serious issues and sorted them out completely. It is so amazing to know that it is a job well done.",
     name: "Lindsay Campbell",
     location: "Cape Town",
   },
   {
-    text: "Dusty and his team were amazing to work with! They were responsive, considerate and communicative. Would highly recommend.",
+    text: "Dusty and his team were amazing to work with. They were responsive, considerate and communicative. Would highly recommend.",
     name: "Kirsty Nortje",
     location: "Cape Town",
   },
 ]
 
 const services = [
-  {
-    icon: 'drilling',
-    title: 'Borehole Drilling',
-    desc: 'Professional drilling using Rotary Mud and Air Percussion techniques. Full site setup to handover.',
-    path: '/services/borehole-drilling',
-  },
-  {
-    icon: 'pump',
-    title: 'Pump Installation',
-    desc: 'Italian-manufactured submersible pumps, individually sized to your borehole exact flow and depth.',
-    path: '/services/pump-installation',
-  },
-  {
-    icon: 'maintenance',
-    title: 'Maintenance',
-    desc: 'Annual servicing to pull, inspect, and clean your pump — protecting your investment for the long term.',
-    path: '/services/maintenance',
-  },
-  {
-    icon: 'storage',
-    title: 'Water Storage System',
-    desc: 'Complete system design: storage tanks, booster pumps, automation and water treatment in one package.',
-    path: '/services/water-storage',
-  },
-  {
-    icon: 'quality',
-    title: 'Water Quality Testing',
-    desc: 'Accredited lab analysis so we can design the right treatment system specifically for your borehole.',
-    path: '/services/water-quality',
-  },
-  {
-    icon: 'irrigation',
-    title: 'Irrigation',
-    desc: 'Custom irrigation systems designed around your garden layout, plant types and water requirements.',
-    path: '/services/irrigation',
-  },
+  { title: 'Borehole Drilling', desc: 'Professional drilling using Rotary Mud and Air Percussion techniques. Full site setup to handover.', path: '/services/borehole-drilling' },
+  { title: 'Pump Installation', desc: 'Italian-manufactured submersible pumps, individually sized to your borehole exact flow and depth.', path: '/services/pump-installation' },
+  { title: 'Maintenance', desc: 'Annual servicing to pull, inspect, and clean your pump protecting your investment for the long term.', path: '/services/maintenance' },
+  { title: 'Water Storage System', desc: 'Complete system design: storage tanks, booster pumps, automation and water treatment in one package.', path: '/services/water-storage' },
+  { title: 'Water Quality Testing', desc: 'Accredited lab analysis so we can design the right treatment system specifically for your borehole.', path: '/services/water-quality' },
+  { title: 'Irrigation', desc: 'Custom irrigation systems designed around your garden layout, plant types and water requirements.', path: '/services/irrigation' },
 ]
 
 function useReveal() {
@@ -82,17 +52,12 @@ export default function Home() {
   const ref = useReveal()
   return (
     <div ref={ref}>
+
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <span className={styles.heroTag}>Cape Town - Est. 2005</span>
-          <h1 className={styles.heroTitle}>
-            We do the
-            <br />
-            the hole job.
-          </h1>
-          <p className={styles.heroSub}>
-            Professional borehole drilling, pump installation and complete water solutions across the Southern Suburbs of Cape Town.
-          </p>
+          <h1 className={styles.heroTitle}>We do the hole job.</h1>
+          <p className={styles.heroSub}>Professional borehole drilling, pump installation and complete water solutions across the Southern Suburbs of Cape Town.</p>
           <div className={styles.heroCtas}>
             <Link to="/contact" className={styles.ctaPrimary}>Get a Quote</Link>
             <Link to="/services" className={styles.ctaSecondary}>Our Services</Link>
@@ -148,7 +113,7 @@ export default function Home() {
           <div className={styles.whyText}>
             <span className={styles.sectionTag}>Why Borehole Man</span>
             <h2 className={styles.sectionTitle}>Cape Towns Borehole Specialists</h2>
-            <p>Water restrictions, droughts and rising municipal costs have made borehole water a smart, long-term investment for Cape Town homeowners. But a borehole is only as good as the people who drill and install it.</p>
+            <p>Water restrictions, droughts and rising municipal costs have made borehole water a smart long-term investment for Cape Town homeowners. But a borehole is only as good as the people who drill and install it.</p>
             <p>With over 21 years of experience in the Southern Suburbs, we have seen what happens when corners are cut. We do things differently.</p>
             <p>Every borehole we drill is developed properly. Every pump is sized to the actual flow data. Every installation uses quality materials. And we are still here 21 years later to service what we install.</p>
             <Link to="/about" className={styles.ctaPrimary}>Read Our Story</Link>
@@ -201,15 +166,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      
-        href="https://wa.me/27822100454"
-        target="_blank"
-        rel="noreferrer"
-        className={styles.whatsappFloat}
-      >
-        WA
-      </a>
 
     </div>
   )
