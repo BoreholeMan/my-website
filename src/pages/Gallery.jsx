@@ -4,6 +4,7 @@ import styles from './Gallery.module.css'
 const images = [
   { src: '/Image1.png', caption: 'Borehole drilling in progress' },
   { src: '/Image2.png', caption: 'Pump maintenance' },
+  { src: '/Image3.png', caption: 'Drilling on the 1st floor in Observatory' },
 ]
 export default function Gallery() {
   return (
