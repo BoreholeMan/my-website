@@ -57,7 +57,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           <span className={styles.heroTag}>Cape Town - Est. 2005</span>
           <h1 className={styles.heroTitle}>We do the hole job.</h1>
-          <p className={styles.heroSub}>Professional borehole drilling, pump installation and complete water solutions across the Southern Suburbs of Cape Town.</p>
+          <p className={styles.heroSub}>Professional borehole drilling, pump installation and complete water solutions across Cape Town.</p>
           <div className={styles.heroCtas}>
             <Link to="/contact" className={styles.ctaPrimary}>Get a Quote</Link>
             <Link to="/services" className={styles.ctaSecondary}>Our Services</Link>
