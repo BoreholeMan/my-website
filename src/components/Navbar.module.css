@@ -51,8 +51,20 @@
   text-transform: uppercase;
 }
 
+.solid .link {
+  color: var(--navy-dark);
+}
+
+.solid .link:hover {
+  color: var(--navy);
+}
+
 .link:hover, .active {
   color: rgba(255,255,255,0.7);
+}
+
+.nav.solid .link {
+  color: var(--navy-dark);
 }
 
 .caret {
