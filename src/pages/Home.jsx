@@ -144,7 +144,7 @@ export default function Home() {
           <div className={styles.reviewsGrid}>
             {reviews.map((r, i) => (
               <div key={i} className={styles.reviewCard}>
-                <div className={styles.reviewStars}>5 stars</div>
+                <div className={styles.reviewStars}>&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                 <p className={styles.reviewText}>{r.text}</p>
                 <div className={styles.reviewAuthor}>
                   <span className={styles.reviewName}>{r.name}</span>
