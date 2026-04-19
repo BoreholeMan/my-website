@@ -54,7 +54,12 @@ export default function Navbar() {
       <nav className={`${styles.nav} ${scrolled || !isHome ? styles.solid : ''} ${menuOpen ? styles.solid : ''}`}>
         <div className={styles.inner}>
           <Link to="/" className={styles.logo}>
-            <img src="/logo.png" alt="Borehole Man" className={styles.logoImg} />
+            <img
+              src="/logo.png"
+              alt="Borehole Man"
+              className={styles.logoImg}
+              style={{ filter: scrolled || !isHome || menuOpen ? 'none' : 'brightness(0) invert(1)' }}
+            />
           </Link>
 
           <div className={styles.links}>
