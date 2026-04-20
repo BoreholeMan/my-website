@@ -120,6 +120,16 @@ export default function Home() {
           </div>
          <div className={styles.whyImage}>
             <img src="/Image7.jpg" alt="Borehole Man drilling rigs and vehicles" />
+            <div className={styles.whyImageStats}>
+              <div className={styles.whyStat}>
+                <div className={styles.whyStatNum}>21+</div>
+                <div className={styles.whyStatLabel}>Years serving the same local community</div>
+              </div>
+              <div className={styles.whyStat}>
+                <div className={styles.whyStatNum}>1</div>
+                <div className={styles.whyStatLabel}>Company for drilling, installation, maintenance and irrigation</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
