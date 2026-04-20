@@ -54,14 +54,17 @@ export default function PumpInstallation() {
         <div className={pumpStyles.mediaInner}>
           <h2 className={pumpStyles.mediaTitle}>See Our Work</h2>
           <div className={pumpStyles.mediaGrid}>
-            <div className={pumpStyles.mediaItem}>
-              <img src="/Image8.jpg" alt="Pump installation" />
+            <div className={pumpStyles.photoItem}>
+              <img src="/Image8.jpg" alt="Pump before and after service" />
             </div>
-            <div className={pumpStyles.mediaItem}>
-              <video controls playsInline>
-                <source src="/Video1.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className={pumpStyles.videoItem}>
+              <iframe
+                src="https://www.youtube.com/embed/d1TwmZzEJd4"
+                title="Pump Installation Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
