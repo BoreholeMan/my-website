@@ -114,23 +114,12 @@ export default function Home() {
             <span className={styles.sectionTag}>Why Borehole Man</span>
             <h2 className={styles.sectionTitle}>Cape Towns Borehole Specialists</h2>
             <p>Water restrictions, droughts and rising municipal costs have made borehole water a smart long-term investment for Cape Town homeowners. But a borehole is only as good as the people who drill and install it.</p>
-            <p>With over 21 years of experience in the Southern Suburbs, we have seen what happens when corners are cut. We do things differently.</p>
+            <p>With over 21 years of experience in Cape Town, we have seen what happens when corners are cut. We do things differently.</p>
             <p>Every borehole we drill is developed properly. Every pump is sized to the actual flow data. Every installation uses quality materials. And we are still here 21 years later to service what we install.</p>
             <Link to="/about" className={styles.ctaPrimary}>Read Our Story</Link>
           </div>
-          <div className={styles.whyStats}>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>300+</div>
-              <div className={styles.whyStatLabel}>Boreholes drilled across Cape Towns Southern Suburbs</div>
-            </div>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>21+</div>
-              <div className={styles.whyStatLabel}>Years serving the same local community</div>
-            </div>
-            <div className={styles.whyStat}>
-              <div className={styles.whyStatNum}>1</div>
-              <div className={styles.whyStatLabel}>Company for drilling, installation, maintenance and irrigation</div>
-            </div>
+         <div className={styles.whyImage}>
+            <img src="/Image7.jpg" alt="Borehole Man drilling rigs and vehicles" />
           </div>
         </div>
       </section>
