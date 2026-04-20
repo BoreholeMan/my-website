@@ -43,15 +43,18 @@ export default function Navbar() {
     justifyContent: 'center',
     boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
     zIndex: '999',
-    color: 'white',
-    fontWeight: '800',
-    fontSize: '0.75rem',
     textDecoration: 'none',
   }
 
+  const navClass = [
+    styles.nav,
+    scrolled || !isHome ? styles.solid : '',
+    menuOpen ? styles.solid : ''
+  ].join(' ')
+
   return (
-    <>
-      <nav className={`${styles.nav} ${scrolled || !isHome ? styles.solid : ''} ${menuOpen ? styles.solid : ''}`}>
+    <div>
+      <nav className={navClass}>
         <div className={styles.inner}>
           <Link to="/" className={styles.logo}>
             <img
@@ -63,15 +66,15 @@ export default function Navbar() {
           </Link>
 
           <div className={styles.links}>
-            <Link to="/" className={`${styles.link} ${location.pathname === '/' ? styles.active : ''}`}>Home</Link>
-            <Link to="/about" className={`${styles.link} ${location.pathname === '/about' ? styles.active : ''}`}>About</Link>
-
-            <div className={styles.dropdown}
+            <Link to="/" className={styles.link}>Home</Link>
+            <Link to="/about" className={styles.link}>About</Link>
+            <div
+              className={styles.dropdown}
               onMouseEnter={() => setServicesOpen(true)}
               onMouseLeave={() => setServicesOpen(false)}
             >
-              <Link to="/services" className={`${styles.link} ${location.pathname.startsWith('/services') ? styles.active : ''}`}>
-                Services <span className={styles.caret}>v</span>
+              <Link to="/services" className={styles.link}>
+                Services
               </Link>
               {servicesOpen && (
                 <div className={styles.dropMenu}>
@@ -81,16 +84,10 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-
-            <Link to="/gallery" className={`${styles.link} ${location.pathname === '/gallery' ? styles.active : ''}`}>Gallery</Link>
-            <Link to="/contact" className={`${styles.link} ${location.pathname === '/contact' ? styles.active : ''}`}>Contact</Link>
-            <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" style={waStyle}>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          alt="WhatsApp"
-          style={{ width: '32px', height: '32px' }}
-        />
-      </a>
+            <Link to="/gallery" className={styles.link}>Gallery</Link>
+            <Link to="/contact" className={styles.link}>Contact</Link>
+            <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" className={styles.ctaBtn}>WhatsApp Us</a>
+          </div>
 
           <button className={styles.burger} onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
             <span className={menuOpen ? styles.line1open : styles.line1}></span>
@@ -115,8 +112,8 @@ export default function Navbar() {
       </nav>
 
       <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" style={waStyle}>
-        WA
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style={{ width: '32px', height: '32px' }} />
       </a>
-    </>
+    </div>
   )
 }
