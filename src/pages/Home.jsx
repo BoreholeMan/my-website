@@ -65,13 +65,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.stats}>
+    <section className={styles.stats}>
         <div className={styles.statsInner}>
-          <div className={styles.stat}>
-            <span className={styles.statNum}>300+</span>
-            <span className={styles.statLabel}>Boreholes Drilled</span>
-          </div>
-          <div className={styles.statDivider} />
           <div className={styles.stat}>
             <span className={styles.statNum}>21+</span>
             <span className={styles.statLabel}>Years Experience</span>
