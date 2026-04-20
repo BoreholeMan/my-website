@@ -118,16 +118,16 @@ export default function Home() {
             <p>Every borehole we drill is developed properly. Every pump is sized to the actual flow data. Every installation uses quality materials. And we are still here 21 years later to service what we install.</p>
             <Link to="/about" className={styles.ctaPrimary}>Read Our Story</Link>
           </div>
-         <div className={styles.whyImage}>
+        <div className={styles.whyImage}>
             <img src="/Image7.jpg" alt="Borehole Man drilling rigs and vehicles" />
-            <div className={styles.whyImageStats}>
-              <div className={styles.whyStat}>
-                <div className={styles.whyStatNum}>21+</div>
-                <div className={styles.whyStatLabel}>Years serving the same local community</div>
+            <div className={styles.whyImageOverlay}>
+              <div className={styles.whyOverlayStat}>
+                <div className={styles.whyOverlayNum}>21+</div>
+                <div className={styles.whyOverlayLabel}>Years serving the same local community</div>
               </div>
-              <div className={styles.whyStat}>
-                <div className={styles.whyStatNum}>1</div>
-                <div className={styles.whyStatLabel}>Company for drilling, installation, maintenance and irrigation</div>
+              <div className={styles.whyOverlayStat}>
+                <div className={styles.whyOverlayNum}>1</div>
+                <div className={styles.whyOverlayLabel}>Company for drilling, installation, maintenance and irrigation</div>
               </div>
             </div>
           </div>
