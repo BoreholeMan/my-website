@@ -26,10 +26,6 @@ export default function About() {
               <div className={styles.cardLabel}>Year Founded</div>
             </div>
             <div className={styles.card}>
-              <div className={styles.cardNum}>300+</div>
-              <div className={styles.cardLabel}>Boreholes Drilled</div>
-            </div>
-            <div className={styles.card}>
               <div className={styles.cardNum}>21+</div>
               <div className={styles.cardLabel}>Years Experience</div>
             </div>
