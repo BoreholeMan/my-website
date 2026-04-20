@@ -39,7 +39,7 @@ export default function Footer() {
 
       <div className={styles.bottom}>
         <p>© {new Date().getFullYear()} Borehole Man. All rights reserved.</p>
-        <p>300+ Boreholes Drilled · 21+ Years Experience</p>
+        <p>21+ Years Experience · Est. 2005</p>
       </div>
     </footer>
   )
