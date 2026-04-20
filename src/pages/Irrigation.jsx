@@ -23,7 +23,7 @@ export default function Irrigation() {
       <section className={styles.content}>
         <div className={styles.contentInner}>
           <h2>No Two Gardens Are the Same</h2>
-          <p>A well-designed irrigation system does more than just water your garden — it delivers the right amount of water to the right areas at the right time. We design every system specifically around your garden layout, plant types and watering needs.</p>
+          <p>A well-designed irrigation system does more than just water your garden — it delivers the right amount of water to the right areas at the right time. The lab designs every system specifically around your garden layout, plant types and watering needs.</p>
 
           <h2>What We Consider in the Design</h2>
           <div className={styles.infoGrid}>
