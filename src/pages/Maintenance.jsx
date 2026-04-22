@@ -79,13 +79,19 @@ export default function Maintenance() {
               <img src="/Image8.jpg" alt="Pump before and after service" />
             </div>
             <div className={mainStyles.videoItem}>
-              <iframe
-                src="https://www.youtube.com/embed/d1TwmZzEJd4"
-                title="Maintenance Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <div className={mainStyles.videoWrapper}>
+                <iframe
+                  src="https://www.youtube.com/embed/d1TwmZzEJd4"
+                  title="Maintenance Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className={mainStyles.videoCaption}>
+                <h3>Borehole Service with Roots</h3>
+                <p>Watch our team carry out a full borehole service — pulling the pump, clearing roots and getting the system running cleanly again.</p>
+              </div>
             </div>
           </div>
         </div>
