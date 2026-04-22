@@ -257,7 +257,7 @@
 
 .why {
   background: var(--off-white);
-  padding: 0 0 96px;
+  padding: 0 0 48px;
   border-top: 1px solid var(--light-gray);
 }
 
@@ -404,7 +404,7 @@
 }
 
 .reviews {
-  padding: 96px 24px;
+  padding: 48px 24px;
   background: var(--off-white);
   border-top: 1px solid var(--light-gray);
 }
