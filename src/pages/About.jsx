@@ -66,7 +66,7 @@ export default function About() {
             <div className={styles.member}>
               <div className={styles.memberInitial}>S</div>
               <h3 className={styles.memberName}>Shannon</h3>
-              <span className={styles.memberRole}>Admin & Customer Support</span>
+              <span className={styles.memberRole}>Accounts & Bookings</span>
               <p className={styles.memberBio}>Shannon manages the admin and customer coordination side of the business. Working alongside Dusty, she helps keep projects organised and ensures every client is kept informed from first enquiry through to completion.</p>
             </div>
             <div className={styles.member}>
