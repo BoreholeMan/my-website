@@ -90,7 +90,7 @@ export default function Maintenance() {
               </div>
               <div className={mainStyles.videoCaption}>
                 <h3>Borehole Service with Roots</h3>
-                <p>Watch our team carry out a full borehole service — pulling the pump, clearing roots and getting the system running cleanly again.</p>
+                <p>Watch our team pulling up a pump full of roots.</p>
               </div>
             </div>
           </div>
