@@ -20,9 +20,10 @@
 }
 
 .mediaGrid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
+  align-items: start;
 }
 
 .photoItem {
@@ -38,6 +39,12 @@
 }
 
 .videoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.videoWrapper {
   border-radius: 6px;
   overflow: hidden;
   position: relative;
@@ -45,13 +52,32 @@
   height: 0;
 }
 
-.videoItem iframe {
+.videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 6px;
+}
+
+.videoCaption {
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 1.6;
+  padding: 16px;
+  background: white;
+  border: 1px solid var(--light-gray);
+  border-radius: 6px;
+}
+
+.videoCaption h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  text-transform: uppercase;
+  margin-bottom: 6px;
 }
 
 @media (max-width: 700px) {
