@@ -1,7 +1,6 @@
 import PageHero from '../components/PageHero'
 import { Link } from 'react-router-dom'
 import styles from './ServicePage.module.css'
-import pumpStyles from './PumpInstallation.module.css'
 
 export default function PumpInstallation() {
   return (
@@ -46,26 +45,6 @@ export default function PumpInstallation() {
           <div className={styles.highlight}>
             <h3>Why Materials Matter</h3>
             <p>We only use quality materials throughout. This matters when the pump needs to come out for servicing — done right, it always comes out safely. Cheap materials underground make future maintenance difficult or impossible without damage.</p>
-          </div>
-        </div>
-      </section>
-
-      <section className={pumpStyles.media}>
-        <div className={pumpStyles.mediaInner}>
-          <h2 className={pumpStyles.mediaTitle}>See Our Work</h2>
-          <div className={pumpStyles.mediaGrid}>
-            <div className={pumpStyles.photoItem}>
-              <img src="/Image8.jpg" alt="Pump before and after service" />
-            </div>
-            <div className={pumpStyles.videoItem}>
-              <iframe
-                src="https://www.youtube.com/embed/d1TwmZzEJd4"
-                title="Pump Installation Video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
           </div>
         </div>
       </section>
