@@ -1,6 +1,7 @@
 import PageHero from '../components/PageHero'
 import { Link } from 'react-router-dom'
 import styles from './ServicePage.module.css'
+import mainStyles from './PumpInstallation.module.css'
 
 const checks = [
   {
@@ -70,6 +71,25 @@ export default function Maintenance() {
         </div>
       </section>
 
+      <section className={mainStyles.media}>
+        <div className={mainStyles.mediaInner}>
+          <h2 className={mainStyles.mediaTitle}>Borehole Service</h2>
+          <div className={mainStyles.mediaGrid}>
+            <div className={mainStyles.photoItem}>
+              <img src="/Image8.jpg" alt="Pump before and after service" />
+            </div>
+            <div className={mainStyles.videoItem}>
+              <iframe
+                src="https://www.youtube.com/embed/d1TwmZzEJd4"
+                title="Maintenance Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
       <div className={styles.cta}>
         <div className={styles.inner}>
           <h3>Book your annual service</h3>
