@@ -91,6 +91,37 @@ export default function BoreholeDrilling() {
         </div>
       </section>
 
+      <section className={styles.content}>
+        <div className={styles.contentInner}>
+          <h2>See the Drilling Process</h2>
+          <p>Watch — here is a short clip showing the drilling rig on a recent job in Cape Town.</p>
+          <div style={{
+            position: 'relative',
+            paddingBottom: '56.25%',
+            height: '0',
+            overflow: 'hidden',
+            borderRadius: '6px',
+            marginTop: '24px'
+          }}>
+            <iframe
+              src="https://www.youtube.com/embed/P2PHpJZuV3s"
+              title="Borehole Drilling Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{
+                position: 'absolute',
+                top: '0',
+                left: '0',
+                width: '100%',
+                height: '100%',
+                borderRadius: '6px'
+              }}
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       <div className={styles.cta}>
         <div className={styles.inner}>
           <h3>Ready to drill your borehole?</h3>
