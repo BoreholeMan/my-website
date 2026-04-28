@@ -15,7 +15,7 @@ export default function Gallery() {
       <PageHero
         tag="Gallery"
         title="Our Work"
-        subtitle="A selection of borehole drilling and water system projects across the Southern Suburbs of Cape Town."
+        subtitle="A selection of borehole drilling and water system projects done by Borehole Man."
       />
       <section className={styles.section}>
         <div className={styles.inner}>
