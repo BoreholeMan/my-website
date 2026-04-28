@@ -93,7 +93,7 @@ export default function BoreholeDrilling() {
 
       <section className={styles.content}>
         <div className={styles.contentInner}>
-          <h2>See the Drilling Process</h2>
+          <h2>Truck Rig on Site</h2>
           <p>Watch — here is a short clip showing the drilling rig on a recent job in Cape Town.</p>
           <div style={{
             position: 'relative',
