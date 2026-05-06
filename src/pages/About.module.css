@@ -162,8 +162,9 @@
 .teamPhoto img {
   width: 100%;
   height: 480px;
-  object-fit: cover;
-  object-position: center 70%;
+  object-fit: contain;
+  object-position: center;
+  background: var(--off-white);
   display: block;
 }
 
