@@ -24,6 +24,13 @@
   background-size: 60px 60px;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    background-position: center 40% !important;
+    background-size: 160% !important;
+  }
+}
+
 .heroContent {
   position: relative;
   z-index: 2;
