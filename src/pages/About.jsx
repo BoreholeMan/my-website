@@ -51,9 +51,7 @@ export default function About() {
           </div>
 
           <div className={styles.teamPhoto}>
-            <div className={styles.teamPhotoPlaceholder}>
-              <p>Team photo coming soon</p>
-            </div>
+            <img src="/Teamphoto1.jpg" alt="The Borehole Man team" />
           </div>
 
           <div className={styles.teamGrid}>
