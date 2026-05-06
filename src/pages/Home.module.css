@@ -26,8 +26,8 @@
 
 @media (max-width: 768px) {
   .hero {
-    background-position: center 40% !important;
-    background-size: 160% !important;
+    background-position: 20% center !important;
+    background-size: 300% !important;
   }
 }
 
