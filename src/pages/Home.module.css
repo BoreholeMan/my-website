@@ -29,6 +29,13 @@
     background-position: 60% center !important;
     background-size: 250% !important;
   }
+  .heroTitle {
+    font-size: clamp(2.5rem, 15vw, 4rem);
+  }
+  .heroContent {
+    padding: 100px 20px 60px;
+  }
+}
 
 .heroContent {
   position: relative;
