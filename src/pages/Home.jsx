@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div ref={ref}>
 
-      <section className={styles.hero}>
+      <section className={styles.hero} style={{ backgroundImage: 'url(/image9.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className={styles.heroContent}>
           <span className={styles.heroTag}>Cape Town - Est. 2005</span>
           <h1 className={styles.heroTitle}>We do the hole job.</h1>
