@@ -26,8 +26,9 @@
 
 @media (max-width: 768px) {
   .hero {
-    background-position: 0% center !important;
+    background-position: 0% 80% !important;
     background-size: 250% !important;
+    min-height: 100vh;
   }
   .heroTitle {
     font-size: clamp(2.5rem, 15vw, 4rem);
