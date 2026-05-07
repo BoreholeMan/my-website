@@ -10,6 +10,7 @@ const images = [
   { src: '/Image6.jpeg', caption: 'Coral Reef in the Red Sea off Saudi Arabia' },
   { src: '/Image10.jpg', caption: 'Drilling on a construction site in Hout Bay' },
   { src: '/Image11.jpg', caption: 'Drilling in Constantia' },
+  { src: '/Image12.jpg', caption: 'Drilling on a construction site in Constantia' },
 ]
 export default function Gallery() {
   return (
