@@ -8,8 +8,8 @@ const images = [
   { src: '/Image4.png', caption: 'Drilling at the Riding Centre in Hout Bay' },
   { src: '/Image5.jpeg', caption: 'Navigational Beacon in the Red Sea off Saudi Arabia' },
   { src: '/Image6.jpeg', caption: 'Coral Reef in the Red Sea off Saudi Arabia' },
-  { src: '/Image10.jpeg', caption: 'Drilling on a construction site in Hout Bay' },
-  { src: '/Image11.jpeg', caption: 'Drilling in Constantia' },
+  { src: '/Image10.jpg', caption: 'Drilling on a construction site in Hout Bay' },
+  { src: '/Image11.jpg', caption: 'Drilling in Constantia' },
 ]
 export default function Gallery() {
   return (
