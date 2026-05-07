@@ -2,12 +2,14 @@ import PageHero from '../components/PageHero'
 import styles from './Gallery.module.css'
 
 const images = [
-  { src: '/Image1.png', caption: 'Borehole drilling in progress' },
+  { src: '/Image1.png', caption: 'Borehole drilling in Constantia Nek' },
   { src: '/Image2.png', caption: 'Pump maintenance' },
   { src: '/Image3.png', caption: 'Drilling on the 1st floor in Observatory' },
   { src: '/Image4.png', caption: 'Drilling at the Riding Centre in Hout Bay' },
   { src: '/Image5.jpeg', caption: 'Navigational Beacon in the Red Sea off Saudi Arabia' },
   { src: '/Image6.jpeg', caption: 'Coral Reef in the Red Sea off Saudi Arabia' },
+  { src: '/Image10.jpeg', caption: 'Drilling on a construction site in Hout Bay' },
+  { src: '/Image11.jpeg', caption: 'Drilling in Constantia' },
 ]
 export default function Gallery() {
   return (
