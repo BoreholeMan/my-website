@@ -244,4 +244,10 @@
   .teamGrid {
     grid-template-columns: 1fr;
   }
+  .teamPhoto {
+    grid-template-columns: 1fr;
+  }
+  .teamPhoto img {
+    height: 280px;
+  }
 }
