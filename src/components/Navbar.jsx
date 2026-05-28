@@ -86,7 +86,7 @@ export default function Navbar() {
             </div>
             <Link to="/gallery" className={styles.link}>Gallery</Link>
             <Link to="/contact" className={styles.link}>Contact</Link>
-            <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" className={styles.ctaBtn}>WhatsApp Us</a>
+            <a href="https://wa.me/27820831982" target="_blank" rel="noreferrer" className={styles.ctaBtn}>WhatsApp Us</a>
           </div>
 
           <button className={styles.burger} onClick={() => setMenuOpen(o => !o)} aria-label="Menu">
@@ -111,7 +111,7 @@ export default function Navbar() {
         )}
       </nav>
 
-      <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" style={waStyle}>
+      <a href="https://wa.me/27820831982" target="_blank" rel="noreferrer" style={waStyle}>
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style={{ width: '32px', height: '32px' }} />
       </a>
     </div>
