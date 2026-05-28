@@ -157,7 +157,7 @@ export default function Home() {
           <h2>Ready to secure your water supply?</h2>
           <p>Call us or send an email and we will advise you on the best solution for your property.</p>
           <div className={styles.ctaBannerBtns}>
-            <a href="tel:0822100454" className={styles.ctaPrimary}>082 210 0454</a>
+            <a href="tel:0820831982" className={styles.ctaPrimary}>082 083 1982</a>
             <Link to="/contact" className={styles.ctaSecondaryLight}>Send a Message</Link>
           </div>
         </div>
