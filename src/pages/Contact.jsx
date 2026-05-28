@@ -21,7 +21,7 @@ export default function Contact() {
                 <span className={styles.contactIcon}>📞</span>
                 <div>
                   <div className={styles.contactLabel}>Office</div>
-                  <a href="tel:0822100454" className={styles.contactValue}>082 210 0454</a>
+                  <a href="tel:0820831982" className={styles.contactValue}>082 083 1982</a>
                 </div>
               </div>
               <div className={styles.contactItem}>
@@ -42,7 +42,7 @@ export default function Contact() {
                 <span className={styles.contactIcon}>💬</span>
                 <div>
                   <div className={styles.contactLabel}>WhatsApp</div>
-                  <a href="https://wa.me/27822100454" target="_blank" rel="noreferrer" className={styles.contactValue}>082 210 0454</a>
+                  <a href="https://wa.me/27820831982" target="_blank" rel="noreferrer" className={styles.contactValue}>082 083 1982</a>
                 </div>
               </div>
               <div className={styles.contactItem}>
