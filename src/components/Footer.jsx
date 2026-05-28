@@ -30,7 +30,7 @@ export default function Footer() {
 
         <div className={styles.col}>
           <h4>Contact</h4>
-          <a href="tel:0822100454">Office: 082 210 0454</a>
+          <a href="tel:0820831982">Office: 082 083 1982</a>
           <a href="tel:0798459030">Dusty: 079 845 9030</a>
           <a href="mailto:sales@boreholeman.co.za">sales@boreholeman.co.za</a>
           <p className={styles.area}>The Block, 9 Mocke Rd, Diep River, Cape Town, 7800</p>
