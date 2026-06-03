@@ -18,6 +18,8 @@
     { "source": "/filtration", "destination": "/services/water-quality", "permanent": true },
     { "source": "/filtration/", "destination": "/services/water-quality", "permanent": true },
     { "source": "/storage", "destination": "/services/water-storage", "permanent": true },
-    { "source": "/storage/", "destination": "/services/water-storage", "permanent": true }
+    { "source": "/storage/", "destination": "/services/water-storage", "permanent": true },
+    { "source": "/wp-:path*", "destination": "/", "permanent": true },
+    { "source": "/:path*.php", "destination": "/", "permanent": true }
   ]
 }
