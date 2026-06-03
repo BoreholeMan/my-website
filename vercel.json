@@ -1,5 +1,23 @@
 {
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "redirects": [
+    { "source": "/about-us", "destination": "/about", "permanent": true },
+    { "source": "/about-us/", "destination": "/about", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact", "permanent": true },
+    { "source": "/contact-us/", "destination": "/contact", "permanent": true },
+    { "source": "/projects", "destination": "/gallery", "permanent": true },
+    { "source": "/projects/", "destination": "/gallery", "permanent": true },
+    { "source": "/borehole-drilling", "destination": "/services/borehole-drilling", "permanent": true },
+    { "source": "/borehole-drilling/", "destination": "/services/borehole-drilling", "permanent": true },
+    { "source": "/borehole-maintanance", "destination": "/services/maintenance", "permanent": true },
+    { "source": "/borehole-maintanance/", "destination": "/services/maintenance", "permanent": true },
+    { "source": "/water-treatment", "destination": "/services/water-storage", "permanent": true },
+    { "source": "/water-treatment/", "destination": "/services/water-storage", "permanent": true },
+    { "source": "/filtration", "destination": "/services/water-quality", "permanent": true },
+    { "source": "/filtration/", "destination": "/services/water-quality", "permanent": true },
+    { "source": "/storage", "destination": "/services/water-storage", "permanent": true },
+    { "source": "/storage/", "destination": "/services/water-storage", "permanent": true }
   ]
 }
