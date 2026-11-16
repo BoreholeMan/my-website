@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import styles from './Home.module.css'
+import PhotoSlider from '../components/PhotoSlider'
 
 const reviews = [
   {
@@ -105,9 +106,7 @@ export default function Home() {
 
       <section className={styles.why}>
         <div className={styles.whyInner}>
-          <div className={styles.whyPhoto}>
-            <img src="/Image7.jpg" alt="Borehole Man drilling rigs and vehicles" />
-          </div>
+          <PhotoSlider />
           <div className={styles.whyBottom}>
             <div className={styles.whyText}>
               <span className={styles.sectionTag}>Why Borehole Man</span>
