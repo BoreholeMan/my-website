@@ -85,9 +85,9 @@
   .card img { height: 360px; }
 }
 
-/* Phone: 1 card with a peek of the next one */
+/* Phone: 1 full-width photo at a time, centred */
 @media (max-width: 600px) {
-  .card { flex-basis: 82%; }
+  .card { flex-basis: 100%; scroll-snap-align: center; }
   .card img { height: 320px; }
   .arrow { width: 38px; height: 38px; font-size: 1.5rem; }
 }
