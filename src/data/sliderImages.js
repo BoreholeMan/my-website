@@ -26,7 +26,7 @@ const sliderImages = [
   { src: '/slider/hout-bay2.webp', caption: 'Hout Bay' },
   { src: '/slider/constantia3.webp', caption: 'Constantia' },
   { src: '/slider/constantia2.webp', caption: 'Constantia' },
-  { src: '/slider/installation.webp', caption: 'Pump installation' },
+  { src: '/slider/installation.webp', caption: 'Installation in Hout Bay' },
   { src: '/slider/compressor.webp', caption: 'Compressor on site' },
 ]
 
