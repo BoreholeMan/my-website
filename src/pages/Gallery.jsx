@@ -11,6 +11,9 @@ const images = [
   { src: '/Image10.jpg', caption: 'Drilling on a construction site in Hout Bay' },
   { src: '/Image11.jpg', caption: 'Drilling in Constantia' },
   { src: '/Image12.jpg', caption: 'Drilling on a construction site in Constantia' },
+  { src: '/Image13.jpg', caption: 'Drilling in Fish Hoek' },
+  { src: '/Image14.jpeg', caption: 'Drilling in Newlands' },
+  { src: '/Image15.jpeg', caption: 'Drilling in Stonehurst Estate' },
 ]
 export default function Gallery() {
   return (
